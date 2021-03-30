@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom:  16px;
+}
+
+nav {
+    width: 1200px;
+    height: 60px;
+    display:flex;
+    margin: 0 auto 0 auto;
+    align-self: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    font-size: 20px;
+    background-color: lightgray;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.home {
+    /*background-color: aqua;*/
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+}                              /* after styling, copy/cut the home div, go to the JS app and paste in the var line, inside the quotation but REMOVE THE QUOTATIONS AND USE A "BACKTICK like this `   ` */
+
+.hero1{
+    width: 1000px;
+    height: 280px;
+    background-image: url(../images/hero1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding-top: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.container1 {
+    width:1000px;
+    height: 280px;
+    margin-top: 30px;
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+}
+
+.image1 {
+    width: 500px;
+    height: 280px;
+    background-image: url(../images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text1 {
+    width: 700px;
+    height: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.container2 {
+    width:1000px;
+    height:300px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.image2 {
+    width: 500px;
+    height: 300px;
+    background-image: url(../images/image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    
+}
+
+.text2 {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 20px 20px;
+
+}   
+
+.about {
+    background-color: bisque;
+    display: flex;
+    width: 1000px;
+    height: 2130px;
+    margin: 0 auto;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text3 {
+    width: 800px;
+    height: 330px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+    padding-bottom: 20px;
+}
+
+.image3 {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../images/image3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.text4 {
+    width: 800px;
+    height: 110px;
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+.image4 {
+    width: 1000px;
+    height: 500px;
+    background-image: url(../images/image4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.text5 {
+    width: 800px;
+    height: 280px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image5 {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../images/image5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.text6 {
+    width: 800px;
+    height: 150px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text7 {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.locations {
+    background-color: lightgreen; 
+    margin: 0 auto;
+    display: block;
+    width: 1000px;
+    height: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.tours {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.column1 {
+    width: 490px;
+    height: 1050px;
+    background-color: lightpink;
+    margin: 0 auto;
+    display:inline-block;
+
+}
+
+.column2 {
+    width: 490px;
+    height: 1050px;
+    background-color: lightsteelblue;  
+    margin: 0 auto;
+    display:inline-block;
+    margin-left: 15px;
+}
+
+.image6 {
+    width: 490px;
+    height: 300px;
+    background-image: url(../images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.text8 {
+    width: 490px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    align-self: center;
+    padding: 20px;
+}
+
+.image7 {
+    width: 490px;
+    height: 300px;
+    background-image: url(../images/image7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+ 
+.text9 {
+    width: 490px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image8 {
+    width: 490px;
+    height: 300px;
+    background-image: url(../images/image8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.image9 {
+    width: 490px;
+    height: 300px;
+    background-image: url(../images/image9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.text10 {
+    width: 490px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text11 {
+    width: 490px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text12 {
+    width: 490px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.contact {
+    display: block;
+    width: 1000px;
+    height: 1550px;
+    margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.image10 {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../images/image10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.image11 {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../images/image11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.image12 {
+    width: 1000px;
+    height: 300px;
+    background-image: url(../images/image12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+}
+
+.text13 {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    flex-direction: row;
+    overflow: auto;
+}
+
+.headline {
+    text-align: center;
+    display: block;
+    padding-top: 22px;
+    height:80px;
+    font-size: 30px;
+}
+
+.left {
+    width: 500px;
+    height: 220px;
+    display: block;
+    float: left;
+    padding-left: 330px;
+}
+
+.right {
+    width: 500px;
+    height: 220px;
+    display: block;
+    float: left;
+    padding-left: 70px;
+}
+
+.text14 {
+    width: 1000px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.text15 {
+    width: 1000px;
+    height: 160px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 40px;
+}
